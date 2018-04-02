@@ -1,0 +1,43 @@
+Andre Yim 
+Student #100961929
+
+ECOR 1606 Assignment #1
+Question 1
+
+b = 8.99
+c = 4.99
+d = 3.50
+e = 2.50
+f = 1.75
+g = 1.25
+h = 0.95
+i = 0.25
+
+set number to a
+//Where "a" must be a positive integer number
+
+if (a is greater or equal to b) do
+	buy b
+
+	else if (a is greater or equal to c, a is less than b) do
+		buy c
+
+	else if (a is greater or equal to d, a is less than c) do
+		buy d
+
+	else if (a is greater or equal to e, a is less than d) do
+		buy e
+
+	else if (a is greater or equal to f, a is less than g) do
+		buy f
+
+	else if (a is greater or equal to g, a is less than h) do
+		buy g
+	
+	else if (a is greater or equal to h, a is less than i) do
+		buy i
+
+	else if (a is less than i)
+		Do nothing
+
+endif
