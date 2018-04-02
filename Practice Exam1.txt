@@ -1,0 +1,36 @@
+int main() {
+	ofstream fout;
+	double value, count;
+
+	fout.open("data.txt");
+	if (fout.fail()){
+		cout << "File cannot be opened. \n";
+		system (PAUSE);
+		return 0;
+	}
+
+	if (value < 10) {
+		fout << "File contains too few values. \n";
+	} else if ( value > 100) {
+		fout << "File contains too many values. \n";
+
+	for (i=0; i < value-1 ; i ++) {
+		for ( j=0; j< value; j++){
+			if (array[i] > array [j] {
+				temp = array[i];
+				array[i] = array [j];
+				array[j] = temp;
+			} else if ( array [i] == array [j] {
+				fout << "File contains at least one duplicate value. \n";
+				break;
+			} 		
+		}
+	}
+	
+	fout << "File is ok. \n";
+	
+	system(PAUSE);
+	return 0;
+	
+
+	
