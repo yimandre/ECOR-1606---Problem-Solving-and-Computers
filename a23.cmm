@@ -1,0 +1,22 @@
+/* André Yim
+   Student #100961929
+   
+   ECOR 1606
+   Assignment 2, Question 3 */
+
+{
+
+    // Variables
+    double dir;
+
+    cout << "Please enter wind direction in degrees True: ";
+    cin >> dir;
+    dir = dir + 14;
+
+    if (dir < (120 + 90) && dir > (120 - 90)) {
+        cout << "12 is the preferred runway" << endl;
+    } else {
+        cout << "30 is the preferred runway" << endl;
+    } // end if
+
+}

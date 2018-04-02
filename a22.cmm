@@ -1,0 +1,35 @@
+/* André Yim
+   Student #100961929
+   
+   ECOR 1606
+   Assignment 2, Question 2 */
+
+{
+
+    // Variables
+    double Angle,
+           Runway1,
+           Runway2;
+
+    cout << "Input angle: ";
+    cin >> Angle;
+    while (Angle <= 360) {
+        Runway1 = (Angle/10);
+        if (Runway1==0) {
+            Runway1 = 36;
+        } // end if
+        if (Runway1>18) {
+            Runway1 = Runway1 - 18;
+        } // end if
+        Runway2 = Runway1 + 18;
+
+        cout << "A runway facing " << Angle << " degrees will have runway numbers ";
+        if (Runway1 < 10) {
+            cout << 0;
+        } // end if
+        cout << Runway1 << "/" << Runway2;
+
+        Angle = Angle + 17;
+    } // end while
+
+}
