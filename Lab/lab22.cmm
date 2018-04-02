@@ -1,0 +1,27 @@
+// Lab 2, Question 2
+
+{
+
+    // Variables
+    double number,
+           divider;
+
+    cout << "Enter a number: ";
+    cin >> number;
+    divider = 1;
+    cout << "The binary equivalent of " << number << " is ";
+    while (2*divider<=number) {
+        divider = divider*2;
+    } // end while
+    while (divider>=1) {
+        if (number>=divider) {
+            cout << 1;
+            number = number-divider;
+        } else {
+            cout << 0;
+        } // end if
+        divider = divider/2;
+    } // end while
+    cout << endl;
+
+}
