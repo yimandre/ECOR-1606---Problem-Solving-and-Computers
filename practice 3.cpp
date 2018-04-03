@@ -1,8 +1,3 @@
-// FUCK HER RIGHT IN THE PUSSY!!! I LOVE YOU HECTOR!!
-//
-// Name:
-// Student Number:
-
 #include <iostream>
 #include <cmath>
 #include <iomanip>
